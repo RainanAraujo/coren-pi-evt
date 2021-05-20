@@ -83,8 +83,8 @@ export default function Certificate({ unlocked, name }) {
           </CertificateBox>
         ) : (
           <Warning>
-            {Date.now() > new Date("05-20-2021")
-              ? "Certificado Indisponível: você não concluiu o evento no prazo estabelecido."
+            {Date.now() > new Date("05-20-2021 16:30:00")
+              ? "Certificado Indisponível: Seu registro de presença não é suficiente para a liberação de seu certificado."
               : "O certificado estará disponível ao final do evento."}
           </Warning>
         )}
