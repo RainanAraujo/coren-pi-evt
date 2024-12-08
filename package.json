@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://rainanaraujo.github.io/coren-pi-evt/",
   "private": false,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
